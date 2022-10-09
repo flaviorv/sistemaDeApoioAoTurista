@@ -1,0 +1,199 @@
+.mainPage {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f5eddc;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#app {
+  height: 100vh;
+}
+.Page {
+  display: block;
+  width: 100%;
+}
+.CategoriaPage {
+  width: 35%;
+  border-right: 20px groove #fa9494;
+}
+.SelecaoPage {
+  width: 75%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+#navbarConteudo {
+  background-color: #cfd2cf;
+  border-radius: 4px;
+}
+#ContainerNavbarConteudo {
+  margin-left: 10%;
+}
+#link-home {
+  font-size: 2em;
+}
+.CategoriaIcons {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#IndexSearchBar {
+  width: 25%;
+}
+#ContainerSearchBar {
+  margin-top: 2%;
+  position: relative;
+  left: 30%;
+}
+#LinkIcon {
+  width: 55px;
+  height: 35px;
+  color: #fa9494;
+}
+#LinkIcon2 {
+  color: #fa9494;
+}
+#IconContainer {
+  display: inline;
+  text-align: start;
+  border: none;
+  background-color: #f5eddc;
+  margin-bottom: 30%;
+}
+#IconContainer strong {
+  margin: 0 15px;
+  font-size: 1.2em;
+}
+#IconContainer:hover {
+  color: red;
+}
+#rodapeIcon:hover {
+  color: red;
+}
+#CategoriaTitle {
+  margin-bottom: 10%;
+  background-color: #cfd2cf;
+  border-radius: 4px;
+}
+#ContainerConteudo {
+  overflow-y: scroll;
+  margin-top: 20px;
+  border: 2px solid black;
+  width: 70%;
+  height: 75%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.Conteudo {
+  margin-top: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+.Conteudo:hover {
+  opacity: 0.7;
+}
+.Conteudo a {
+  width: 100%;
+  text-align: center;
+}
+#CategoriaTitleContainer a {
+  font-size: 2em;
+  margin-left: 25%;
+}
+#Rodape {
+  background-color: #f5eddc;
+}
+#headerRodape {
+  background-color: #cfd2cf;
+  text-align: center;
+}
+#conteudoRodape {
+  display: flex;
+  justify-content: space-evenly;
+}
+#nome,
+#senha {
+  border-radius: 5px;
+}
+.loginForm {
+  margin-top: 12%;
+  text-align: center;
+}
+#user-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f5eddc;
+  padding: 20px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: black;
+  padding: 5px 10px;
+  border-top: 2px solid red;
+}
+input,
+select {
+  padding: 5px 20px;
+  width: 300px;
+  font-size: 1em;
+}
+.submit-btn {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  border: 2px solid red;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.submit-btn:hover {
+  background-color: transparent;
+  color: black;
+}
+
+@media only screen and (max-width: 850px) {
+  .CategoriaPage {
+    display: none;
+  }
+
+  #navbarConteudo {
+    width: 100%;
+  }
+  .mainPage {
+    display: flex;
+    justify-content: start;
+  }
+  .SelecaoPage {
+    width: 100%;
+  }
+  #ContainerSearchBar {
+    margin-left: 4%;
+    width: 150%;
+  }
+  #link-home {
+    font-size: medium;
+  }
+  .Conteudo {
+    width: 60%;
+  }
+  #ContainerConteudo {
+    width: 80%;
+  }
+}

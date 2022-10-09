@@ -1,0 +1,130 @@
+{
+  "locais": [
+    {
+      "id": 1,
+      "name": "Hospital Regional",
+      "category": "emergencia",
+      "address": "Avenida Rio Branco",
+      "neighborhood": "Centro",
+      "city": "Rio de Janeiro",
+      "cep": "20040002",
+      "icon": "fa-solid fa-truck-medical fa-2x",
+      "maps": "https://goo.gl/maps/MuhbbggUkawXX64i6"
+    },
+    {
+      "id": 2,
+      "name": "Batalhão da Polícia Militar",
+      "category": "emergencia",
+      "address": "Rua Frederico Moura",
+      "neighborhood": "Cidade Nova",
+      "city": "Franca",
+      "cep": "14401150",
+      "icon": "fa-solid fa-building-shield fa-2x",
+      "maps": "https://goo.gl/maps/EgjbH5Uip35ChWnJ7"
+    },
+    {
+      "id": 3,
+      "name": "Casa de Festas",
+      "category": "entretenimento",
+      "address": "Rua Maria Luísa do Val Penteado",
+      "neighborhood": "Cidade São Mateus",
+      "city": "São Paulo",
+      "cep": "03962040",
+      "icon": "fa-solid fa-champagne-glasses fa-2x",
+      "maps": "https://goo.gl/maps/be9MSRdtiomtfEMH6"
+    },
+    {
+      "id": 4,
+      "name": "Circo Municipal",
+      "category": "entretenimento",
+      "address": "Avenida São João",
+      "neighborhood": "Vila Joana",
+      "city": "Jundiaí",
+      "cep": "13216000",
+      "icon": "fa-solid fa-bomb fa-2x",
+      "maps": "https://goo.gl/maps/mGpAQegRoz1D4oJQA"
+    },
+    {
+      "id": 5,
+      "name": "Pizzaria MamaMia",
+      "category": "gastronomia",
+      "address": "Rua Arlindo Nogueira",
+      "neighborhood": "Centro",
+      "city": "Teresina",
+      "cep": "64000290",
+      "icon": "fa-solid fa-pizza-slice fa-2x",
+      "maps": "https://goo.gl/maps/xeFX8JJoxD5beGsHA"
+    },
+    {
+      "id": 6,
+      "name": "Restaurante da Vóvó",
+      "category": "gastronomia",
+      "address": "Rua das Fiandeiras",
+      "neighborhood": "Vila Olímpia",
+      "city": "São Paulo",
+      "cep": "04545005",
+      "icon": "fa-solid fa-utensils fa-2x",
+      "maps": "https://goo.gl/maps/8W3FNHZU9YeezKAcA"
+    },
+    {
+      "id": 7,
+      "name": "Supermercado +",
+      "category": "outros",
+      "address": "Rua Barão de Vitória",
+      "neighborhood": "Casa Grande",
+      "city": "Diadema",
+      "cep": "09961660",
+      "icon": "fa-solid fa-store fa-2x",
+      "maps": "https://goo.gl/maps/QgBiXP8ZXmPBm4zVA"
+    },
+    {
+      "id": 8,
+      "name": "Universidade Católica",
+      "category": "outros",
+      "address": "Praça da República",
+      "neighborhood": "República",
+      "city": "São Paulo",
+      "cep": "01045001",
+      "icon": "fa-solid fa-building-columns fa-2x",
+      "maps": "https://goo.gl/maps/7YSoyGdn1KPGb1eN9"
+    }
+  ],
+  "users": [
+    {
+      "nome": "flavio",
+      "senha": "1",
+      "id": 1
+    },
+    {
+      "nome": "flavio",
+      "senha": "1",
+      "id": 2
+    },
+    {
+      "nome": "marco",
+      "senha": "1",
+      "id": 3
+    },
+    {
+      "nome": "flavio",
+      "senha": "1",
+      "id": 4
+    },
+    {
+      "nome": "flavio",
+      "senha": "1",
+      "id": 5
+    },
+    {
+      "nome": "marcos",
+      "senha": "123",
+      "id": 6
+    }
+  ],
+  "log": {
+    "log": ""
+  },
+  "button": {
+    "button": "on"
+  }
+}
